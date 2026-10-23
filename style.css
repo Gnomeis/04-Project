@@ -43,6 +43,21 @@ nav li.active a {
     color: #DDC284;
 }
 
+figure.homepageimg {
+    float: right;
+    width: 40%;
+}
+
+figure.homepageimg img {
+    width: 100%;
+    height: auto;
+}
+
+figure.homepageimg figcaption {
+    text-align: center;
+    size: 10rem;
+}
+
 main {
     padding: 1rem 10px;
 }
@@ -103,6 +118,7 @@ main address {
     border-radius: 10px;
     border: 3px double #85a1de;
     margin: 3px;
+    clear: both;
 }
 
 main a {
@@ -113,10 +129,26 @@ main a:hover {
     color: #777c89;
 }
 
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figure figcaption {
+    text-align: center;
+    size: 10rem;
+}
+
 footer {
     background-color: #eaeaea;
     text-align: center;
     padding: 1rem 0;
+    clear: both;
 }
 
 footer p {
