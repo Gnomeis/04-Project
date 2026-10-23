@@ -55,7 +55,7 @@ figure.homepageimg img {
 
 figure.homepageimg figcaption {
     text-align: center;
-    size: 10rem;
+    font-size: 1rem;
 }
 
 main {
@@ -141,7 +141,7 @@ div.gallery figure {
 
 div.gallery figure figcaption {
     text-align: center;
-    size: 10rem;
+    font-size: 1rem;
 }
 
 footer {
